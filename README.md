@@ -7,14 +7,20 @@ git https://github.com/Iankulani/ip-monitor
 
 cd ip-monitor
 
-**How Run it**
+**Compile then run with Node**
 
-npx ts-node ip-monitor.ts 8.8.8.8
+Instead of running directly, compile to JS first:
+
+npx tsc ip-monitor.ts
+
+node ip-monitor.js 0.0.0.0
+
+
 
 
 **Example output:**
 
-🔍 Monitoring IP: 8.8.8.8
+🔍 Monitoring IP: 0.0.0.0
 
 📊 IP Information
 Country       : Malawi
